@@ -1,17 +1,7 @@
-[ {
-    "id": 1,
-    "titre": "courses de noël",
-    "articles": ["dinde", "foie gras", "champagne", "saumon"]
-}
-,
-{
-    "id": 2,
-    "titre": "courses de paques",
-    "articles": ["chocolat", "kinder", "ferrero rocher"]
-},
-{
-    "id": 3,
-    "titre": "courses d'halloween'",
-    "articles": ["bonbons", "snickers", "gateaux"]
-}
+[
+    {
+        "id": 1,
+        "title": "Ma course"
+    }
 ]
+
