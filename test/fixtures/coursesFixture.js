@@ -1,4 +1,4 @@
-const courseList = require('./courses')
+const courseList = require('../../data/courses')
 
 mockData = [
   {

@@ -1,7 +1,7 @@
 const express = require("express")
 const courseListRouter = express()
 const bodyparser = require("body-parser")
-const db = require("../test/fixtures/courses")
+const db = require("../data/courses")
 
 courseListRouter.route('')
     .post(function(req, res){
