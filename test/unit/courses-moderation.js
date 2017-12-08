@@ -5,7 +5,7 @@ const bodyParser = require("body-parser")
 const app = require('./../../app')
 app.use(bodyParser.json())
 
-const listeDeCourses = require("../fixtures/courses")
+const listeDeCourses = require("../../data/courses")
 const listeDeCoursesFixture = require("../fixtures/coursesFixture")
 
 describe('Courses', () =>{

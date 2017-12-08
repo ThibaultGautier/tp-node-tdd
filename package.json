@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "istanbul cover node_modules/mocha/bin/_mocha ./test/unit/courses-moderation.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,7 +16,9 @@
     "bluebird": "^3.5.1",
     "body-parser": "^1.18.2",
     "chai": "^4.1.2",
+    "codecov": "^3.0.0",
     "express": "^4.16.2",
+    "istanbul": "^0.4.5",
     "mocha": "^4.0.1",
     "nodemon": "^1.12.1",
     "sinon": "^4.1.2",
